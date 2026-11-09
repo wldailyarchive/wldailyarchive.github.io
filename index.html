@@ -1,1 +1,156 @@
-FOO
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An independent archive of historical daily activity sheets, organized by year and month.">
+  <title>WL Daily Archive | Daily Activity Sheets</title>
+  <style>
+    :root { color-scheme: light; --ink:#23354b; --muted:#64748b; --line:#dbe4eb; --bg:#f3f7fa; --surface:#fff; --accent:#176779; --accent-soft:#e8f4f6; --focus:#f4b544; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:#126073; }
+    a:hover { color:#063e4d; }
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible {outline:3px solid var(--focus);outline-offset:3px;}
+    .hero { background:linear-gradient(135deg,#18384c,#126679);color:#fff;padding:54px 20px 46px; }
+    .wrap { max-width:970px; margin:auto; }
+    .eyebrow { letter-spacing:.13em;text-transform:uppercase;font-size:.76rem;font-weight:750;opacity:.8; }
+    h1 { margin:8px 0 12px;font-size:clamp(2rem,5vw,3.4rem);line-height:1.13;letter-spacing:-.045em; }
+    .hero p {margin:0;max-width:650px;opacity:.9;}
+    main { padding:30px 20px 65px; }
+    .toolbar {display:flex;align-items:end;gap:13px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 4px 17px rgba(16,39,55,.04);}
+    .field {min-width:180px;flex:1;}
+    .field.search {flex:3;min-width:260px;}
+    label {display:block;font-size:.8rem;font-weight:750;margin-bottom:6px;}
+    input,select {width:100%;background:#fff;border:1px solid #b8c9d3;border-radius:9px;padding:12px 13px;font:inherit;color:var(--ink);}
+    .stats {display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:23px 0 16px;color:var(--muted);font-size:.9rem;}
+    .actions {display:flex;gap:7px;}
+    button {border:1px solid #becdd6;border-radius:8px;background:white;color:var(--ink);font:inherit;font-size:.82rem;font-weight:650;padding:7px 10px;cursor:pointer;}
+    button:hover {background:var(--accent-soft);}
+    .year {background:var(--surface);border:1px solid var(--line);border-radius:14px;margin:12px 0;overflow:hidden;box-shadow:0 3px 12px rgba(16,39,55,.035);}
+    summary {cursor:pointer;list-style:none;display:flex;align-items:center;gap:14px;}
+    summary::-webkit-details-marker {display:none;}
+    .year > summary {padding:17px 20px;background:white;}
+    .year > summary:hover,.month > summary:hover {background:#f7fbfc;}
+    .chevron {margin-left:auto;border-right:2px solid currentColor;border-bottom:2px solid currentColor;width:9px;height:9px;transform:rotate(45deg);transition:transform .16s ease;opacity:.65;}
+    details[open] > summary .chevron {transform:rotate(225deg);}
+    .year-name {font-size:1.3rem;font-weight:790;letter-spacing:-.025em;}
+    .count {color:var(--muted);font-size:.83rem;}
+    .months {padding:0 20px 16px;border-top:1px solid var(--line);}
+    .month {border-bottom:1px solid var(--line);}
+    .month:last-child {border-bottom:0;}
+    .month > summary {padding:14px 1px;font-weight:700;}
+    .month > summary .count {font-weight:400;}
+    .sheets {display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:9px;padding:0 0 17px;}
+    .sheet {display:flex;align-items:center;gap:9px;padding:10px 12px;background:#f5fafb;border:1px solid #dce9ec;border-radius:9px;text-decoration:none;font-size:.92rem;font-weight:650;}
+    .sheet:hover {background:var(--accent-soft);border-color:#a8cbd1;}
+    .sheet svg {flex:0 0 auto;}
+    .empty {text-align:center;border:1px dashed #bdcdd5;border-radius:14px;padding:36px 20px;background:white;color:var(--muted);}
+    footer {border-top:1px solid var(--line);padding:23px 20px 36px;color:var(--muted);font-size:.8rem;}
+    footer p {margin:5px 0;}
+    @media(max-width:520px){.hero{padding:40px 20px 36px}.toolbar{padding:16px}.field.search{min-width:100%}.year > summary{padding:15px}.months{padding:0 15px 12px}.sheets{grid-template-columns:repeat(2,minmax(0,1fr))}.sheet{font-size:.84rem;padding:10px 8px}}
+  </style>
+</head>
+<body>
+  <header class="hero"><div class="wrap">
+    <div class="eyebrow">Independent historical collection</div>
+    <h1>Daily Activity Sheet Archive</h1>
+    <p>Browse past Woodloch daily activity sheets by year and month, or search for a specific date.</p>
+  </div></header>
+  <main class="wrap">
+    <div class="toolbar" role="search">
+      <div class="field search"><label for="search">Search by date</label><input id="search" type="search" placeholder="Try Nov 9, 2026 or 2026-11-09" autocomplete="off"></div>
+      <div class="field"><label for="yearFilter">Year</label><select id="yearFilter"><option value="">All years</option></select></div>
+    </div>
+    <div class="stats"><span id="status" role="status" aria-live="polite">Loading archive…</span><div class="actions"><button type="button" id="expand">Expand all</button><button type="button" id="collapse">Collapse all</button></div></div>
+    <div id="archive"></div>
+  </main>
+  <footer><div class="wrap">
+    <p>This is an independent, unofficial historical archive and is not affiliated with, sponsored by, or endorsed by Woodloch Resort.</p>
+    <p>Daily activity sheets belong to their respective rights holders. For current activities, visit <a href="https://www.woodloch.com/" rel="noopener noreferrer" target="_blank">Woodloch's official website</a>.</p>
+  </div></footer>
+  <script>
+    'use strict';
+    const archiveEl = document.getElementById('archive');
+    const statusEl = document.getElementById('status');
+    const searchEl = document.getElementById('search');
+    const yearEl = document.getElementById('yearFilter');
+    let all = [];
+    const months = Array.from({ length: 12 }, (_, i) => new Date(2020, i, 1).toLocaleString('en-US', {month:'long'}));
+    const icon = '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg>';
+
+    function dateLabel(iso) {
+      const [y,m,d] = iso.split('-').map(Number);
+      return new Date(y,m-1,d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+    }
+    function searchText(item) {
+      const [y,m,d] = item.date.split('-').map(Number);
+      const month = months[m-1];
+      return [item.date,dateLabel(item.date),`${month} ${d} ${y}`,`${m}/${d}/${y}`,`${m}-${d}-${y}`,month,y].join(' ').toLowerCase();
+    }
+    function make(tag, className, content) {
+      const el = document.createElement(tag);
+      if (className) el.className = className;
+      if (content !== undefined) el.textContent = content;
+      return el;
+    }
+    function render() {
+      const q = searchEl.value.trim().toLowerCase();
+      const chosenYear = yearEl.value;
+      const results = all.filter(item => (!chosenYear || item.date.startsWith(chosenYear+'-')) && (!q || searchText(item).includes(q)));
+      const grouped = new Map();
+      for (const item of results) {
+        const [year, month] = item.date.split('-');
+        if (!grouped.has(year)) grouped.set(year,new Map());
+        const yearMonths = grouped.get(year);
+        if (!yearMonths.has(month)) yearMonths.set(month,[]);
+        yearMonths.get(month).push(item);
+      }
+      archiveEl.replaceChildren();
+      const filtered = Boolean(q || chosenYear);
+      for (const [year, yearMonths] of grouped) {
+        const yearCount = [...yearMonths.values()].reduce((n,items)=>n+items.length,0);
+        const yearDetail = make('details','year'); yearDetail.open = filtered || year === String(new Date().getFullYear());
+        const yearSum = make('summary');
+        yearSum.append(make('span','year-name',year),make('span','count',`${yearCount} sheet${yearCount===1?'':'s'}`));
+        const yc = make('span','chevron'); yc.setAttribute('aria-hidden','true'); yearSum.append(yc);
+        yearDetail.append(yearSum);
+        const monthsDiv = make('div','months');
+        for (const [month, items] of yearMonths) {
+          const monthDetail = make('details','month'); monthDetail.open = filtered;
+          const monthSum = make('summary');
+          monthSum.append(make('span','',months[Number(month)-1]),make('span','count',`${items.length} sheet${items.length===1?'':'s'}`));
+          const mc = make('span','chevron'); mc.setAttribute('aria-hidden','true'); monthSum.append(mc); monthDetail.append(monthSum);
+          const grid = make('div','sheets');
+          for (const item of items) {
+            const a = make('a','sheet'); a.href = item.path; a.target='_blank'; a.rel='noopener noreferrer';
+            a.setAttribute('aria-label',`Open PDF for ${dateLabel(item.date)} (new tab)`);
+            a.innerHTML = icon;
+            const day = Number(item.date.slice(-2));
+            a.append(make('span','',`${months[Number(month)-1].slice(0,3)} ${day}, ${year}`));
+            grid.append(a);
+          }
+          monthDetail.append(grid); monthsDiv.append(monthDetail);
+        }
+        yearDetail.append(monthsDiv);archiveEl.append(yearDetail);
+      }
+      statusEl.textContent = `${results.length.toLocaleString()} sheet${results.length===1?'':'s'}${filtered?' found':' archived'}`;
+      if (!results.length) archiveEl.append(make('div','empty','No activity sheets match your search. Try a different date or year.'));
+    }
+    document.getElementById('expand').addEventListener('click',()=>document.querySelectorAll('#archive details').forEach(el=>el.open=true));
+    document.getElementById('collapse').addEventListener('click',()=>document.querySelectorAll('#archive details').forEach(el=>el.open=false));
+    searchEl.addEventListener('input',render);
+    yearEl.addEventListener('change',render);
+    fetch('./index.json',{cache:'no-cache'})
+      .then(response=>{if(!response.ok)throw Error(`HTTP ${response.status}`);return response.json();})
+      .then(data=>{
+        if(!Array.isArray(data)) throw Error('index.json must be an array');
+        all = data.filter(x=>x && /^\d{4}-\d{2}-\d{2}$/.test(x.date) && typeof x.path==='string' && /^PDFs\/\d{4}\/\d{2}\/[^/]+\.pdf$/i.test(x.path));
+        all.sort((a,b)=>b.date.localeCompare(a.date));
+        [...new Set(all.map(x=>x.date.slice(0,4)))].forEach(y=>{const option=make('option','',y);option.value=y;yearEl.append(option);});
+        render();
+      })
+      .catch(err=>{console.error(err);statusEl.textContent='Could not load archive';archiveEl.append(make('div','empty','Unable to load index.json. Make sure the index file exists and you are viewing the site through a web server.'));});
+  </script>
+</body>
+</html>
