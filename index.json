@@ -1,18 +1,22 @@
 [
   {
     "date": "2026-11-12",
-    "path": "PDFs/2026/11/activitysheet-2026-11-12.pdf"
+    "path": "PDFs/2026/11/activitysheet-2026-11-12.pdf",
+    "available": true
   },
   {
     "date": "2026-11-11",
-    "path": "PDFs/2026/11/activitysheet-2026-11-11.pdf"
+    "path": "PDFs/2026/11/activitysheet-2026-11-11.pdf",
+    "available": true
   },
   {
     "date": "2026-11-10",
-    "path": "PDFs/2026/11/activitysheet-2026-11-10.pdf"
+    "path": "PDFs/2026/11/activitysheet-2026-11-10.pdf",
+    "available": true
   },
   {
     "date": "2026-11-09",
-    "path": "PDFs/2026/11/activitysheet-2026-11-09.pdf"
+    "path": "PDFs/2026/11/activitysheet-2026-11-09.pdf",
+    "available": true
   }
 ]
