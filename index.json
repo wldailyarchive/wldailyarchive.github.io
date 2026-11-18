@@ -2,7 +2,36 @@
   {
     "date": "2026-11-18",
     "path": "PDFs/2026/11/activitysheet-2026-11-18.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "ARCHERY RANGE IS OPEN!",
+        "WOODLOCH’S “THE SPICE IS RIGHT” COOKING DEMONSTRATION",
+        "BEAN BAG TOSS CONTEST",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "NIGHTCLUB TOURS"
+      ],
+      "Afternoon Activities": [
+        "BOUNCE BOWLING CONTEST",
+        "SCENIC BOAT RIDES",
+        "YOU BE THE JUDGE",
+        "BOOMERS SOCCER CONTESTS",
+        "CLIMBING WALL IS OPEN!"
+      ],
+      "Late Afternoon Activities": [
+        "JACKPOT BINGO GAMES",
+        "CONNECT-4 BASKETBALL CONTEST",
+        "BOOMERS FUN WITH CLAY",
+        "THE BUMPER CAR COMPLEX IS OPEN!",
+        "NORTH LODGE HAPPY HOUR",
+        "“OLDIES BUT GOODIES” DJ SET WITH “DJ MAXIE!”"
+      ],
+      "Evening Activities": [
+        "WOODLOCH’S 2026 MUSICAL REVUE SHOW - “PARTY IN THE USA!”",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ]
+    }
   },
   {
     "date": "2026-11-17",
@@ -12,41 +41,287 @@
   {
     "date": "2026-11-16",
     "path": "PDFs/2026/11/activitysheet-2026-11-16.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "5 OF A KIND TRIVIA",
+        "FLING BALL CONTEST",
+        "BOOMERS BASKETBALL",
+        "WIFFLEBALL HOME RUN DERBY",
+        "RANKER TRIVIA"
+      ],
+      "Afternoon Activities": [
+        "SCENIC BOAT RIDES",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "FLYBALL CONTEST",
+        "WOODLOCH “JEOPARDY!”",
+        "VIPER GO CARTS ARE OPEN!"
+      ],
+      "Late Afternoon Activities": [
+        "KIDS CLUB JEWELRY MAKING",
+        "ULTIMATE BAG-O CONTEST",
+        "JACKPOT BINGO GAMES",
+        "BUMPER CARS ARE OPEN!",
+        "NORTH LODGE HAPPY HOUR",
+        "“ROCK & ROLL HALL OF FAME” PERFORMANCE WITH SAMMY!"
+      ],
+      "Evening Activities": [
+        "THE VOCAL TALENTS OF “MARK MCGRATH”",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ]
+    }
   },
   {
     "date": "2026-11-15",
     "path": "PDFs/2026/11/activitysheet-2026-11-15.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "JK’S FUNNY PANTS BAKING WARS",
+        "SURVEY SAYS CONTEST",
+        "ULTIMATE BAG-O TOURNAMENT",
+        "TRAPSHOOT CONTEST",
+        "KNOCKOUT BASKETBALL CONTEST",
+        "PETTING ZOO & PONY RIDES",
+        "JEWELRY MAKING",
+        "MARKETING MANIA TRIVIA"
+      ],
+      "Afternoon Activities": [
+        "THE KIDS CLUB ROOM IS OPEN",
+        "SCENIC BOAT RIDES",
+        "SKEE-BALL SOCCER CONTEST",
+        "“BY THE NUMBERS” TRIVIA",
+        "VIPER GO CARTS ARE OPEN!"
+      ],
+      "Late Afternoon Activities": [
+        "FLYBALL CONTEST",
+        "JACKPOT BINGO GAMES",
+        "BOOMER’S FUN WITH CLAY",
+        "NORTH LODGE HAPPY HOUR",
+        "“CHANNEL SURFING” TRIVIA CONTEST!"
+      ],
+      "Evening Activities": [
+        "THE AMAZING JUGGLING OF “ROB SMITH”",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ]
+    }
   },
   {
     "date": "2026-11-14",
     "path": "PDFs/2026/11/activitysheet-2026-11-14.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "KIDS CLUB ROOM IS OPEN",
+        "TIC TAC THROW TOURNAMENTS",
+        "FAMILY OLYMPICS: FALL EDITION WITH JK!",
+        "WOODLOCH GOES TO THE MOVIES",
+        "OPEN TRAPSHOOT",
+        "JEWELRY MAKING",
+        "ONCE UPON A TRIVIA GAME"
+      ],
+      "Afternoon Activities": [
+        "BOOK SIGNING WITH ROGER SANDS",
+        "CONNECT-4 BASKETBALL CONTEST",
+        "GREATEST AVERAGE WOODLOCH GUEST WITH JK!",
+        "BOUNCE BOWLING CONTEST",
+        "ARE YOU SMARTER THAN A 5TH GRADER?",
+        "PAINT & SIP",
+        "BOOMER’S BEAN BAG TOSS"
+      ],
+      "Late Afternoon Activities": [
+        "WOODLOCH’S HORSERACING GAMES WITH SPECIAL APPEARANCE BY JK!",
+        "GENERATION GAP TRIVIA",
+        "ALL-STAR QB CONTEST",
+        "PUTT SKEE TOURNAMENT",
+        "KIDS CLUB PAINTING",
+        "NORTH LODGE HAPPY HOUR",
+        "“JUKEBOX HERO” NAME THAT TUNE CHALLENGE!"
+      ],
+      "Evening Activities": [
+        "WOODLOCH’S PRODUCTION OF THE 2026 THEME SHOW: “PARTY IN THE USA!”",
+        "COMEDY OF “CHRIS MONTY!”",
+        "PROFESSIONAL FAMILY PHOTOS",
+        "BUMPER CAR COMPLEX IS OPEN!",
+        "JACKPOT BINGO GAMES",
+        "DJ DANCE PARTY WITH “DJ LUIS!”",
+        "INDOOR FOREST PLAYGROUND",
+        "INDOOR POOL & SPLASH ZONE"
+      ]
+    }
   },
   {
     "date": "2026-11-13",
     "path": "PDFs/2026/11/activitysheet-2026-11-13.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "COLOR CRAZE TRIVIA",
+        "FLING BALL TOURNAMENTS",
+        "BOOMER’S BASKETBALL",
+        "5 OF A KIND TRIVIA",
+        "ARCHERY RANGE IS OPEN!"
+      ],
+      "Afternoon Activities": [
+        "THE BUMPER CAR COMPLEX IS OPEN!",
+        "JACKPOT BINGO GAMES",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "FLYBALL CONTEST",
+        "VIPER GO CARTS AR OPEN!"
+      ],
+      "Late Afternoon Activities": [
+        "NAME THAT TUNE",
+        "KNOCKOUT BASKETBALL CONTEST",
+        "BUCKET BALL CONTEST",
+        "KIDS CLUB JEWELERY MAKING",
+        "NORTH LODGE HAPPY HOUR",
+        "“GRAB THE MIC!” CONTEST"
+      ],
+      "Evening Activities": [
+        "JK’S BIRTHDAY BASH WITH LIVE MUSIC FROM “THE PARTY CRASHERS!”",
+        "SILENT DJ DANCE PARTY!",
+        "BUMPER CAR COMPLEX IS OPEN!",
+        "THE INDOOR FOREST PLAYGROUND",
+        "THE FLOOR TRIVIA"
+      ]
+    }
   },
   {
     "date": "2026-11-12",
     "path": "PDFs/2026/11/activitysheet-2026-11-12.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "WOODLOCH GOES TO THE MOVIES TRIVIA",
+        "FAMILY BOWLING",
+        "BOOMER’S BEAN BAG TOSS",
+        "WHAT’S COOKING TRIVIA",
+        "BAKERY TOURS"
+      ],
+      "Afternoon Activities": [
+        "THE BUMPER CAR COMPLEX IS OPEN!",
+        "JACKPOT BINGO GAMES!",
+        "CONNECT-4 BASKETBALL CONTEST",
+        "BOOMER’S BOWLING",
+        "PAINT & SIP"
+      ],
+      "Late Afternoon Activities": [
+        "SURVEY SAYS TRIVIA",
+        "ULTIMATE BAG-O",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "THE SHOOTING BARN IS OPEN!",
+        "NORTH LODGE HAPPY HOUR",
+        "“BROADWAY - THEN & NOW” PERFORMANCE WITH SAMMY"
+      ],
+      "Evening Activities": [
+        "THE AMAZING MAGIC ACT OF “DAVID GARRITY”",
+        "FAMILY KARAOKE PARTY WITH “DJ ROMANO!”",
+        "INDOOR FOREST PLAYGROUND",
+        "INDOOR POOL & SPLASH ZONE"
+      ]
+    }
   },
   {
     "date": "2026-11-11",
     "path": "PDFs/2026/11/activitysheet-2026-11-11.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "WOODLOCH’S “THE SPICE IS RIGHT” COOKING DEMONSTRATION",
+        "BEAN BAG TOSS CONTEST",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "NIGHTCLUB TOURS"
+      ],
+      "Afternoon Activities": [
+        "BOUNCE BOWLING CONTEST",
+        "SCENIC BOAT RIDES",
+        "YOU BE THE JUDGE",
+        "KIDS CLUB SCAVENGER HUNT",
+        "CLIMBING WALL IS OPEN!"
+      ],
+      "Late Afternoon Activities": [
+        "JACKPOT BINGO GAMES",
+        "PUTT-SKEE CONTEST",
+        "KIDS CLUB JEWELERY MAKING",
+        "THE BUMPER CAR COMPLEX IS OPEN!",
+        "NORTH LODGE HAPPY HOUR",
+        "AMAZING VOCAL TALENTS OF RYAN FOGLER!"
+      ],
+      "Evening Activities": [
+        "WOODLOCH’S 2026 MUSICAL REVUE SHOW - “PARTY IN THE USA!”",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ]
+    }
   },
   {
     "date": "2026-11-10",
     "path": "PDFs/2026/11/activitysheet-2026-11-10.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "GENERATION GAP TRIVIA",
+        "TIC TAC THROW",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "FAMILY FEUD"
+      ],
+      "Afternoon Activities": [
+        "SCENIC BOAT RIDES",
+        "WIFFLEBALL HOME RUN DERBY",
+        "JACKPOT BINGO GAMES",
+        "BOOMERS SOCCER CONTEST",
+        "THE ARCHERY RANGE IS OPEN!"
+      ],
+      "Late Afternoon Activities": [
+        "TRAPSHOOT CONTEST",
+        "NAME THAT TUNE",
+        "ZOMBIE BOWLING CONTEST",
+        "BOOMERS BINGO",
+        "NORTH LODGE HAPPY HOUR",
+        "“CHANNEL SURFING” TRIVIA CONTEST WITH NICKY ROMA!"
+      ],
+      "Evening Activities": [
+        "WOODLOCH’S TRADITIONAL HORSERACING GAMES WITH SCOOTER!",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ]
+    }
   },
   {
     "date": "2026-11-09",
     "path": "PDFs/2026/11/activitysheet-2026-11-09.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "BY THE NUMBERS TRIVIA",
+        "FLING BALL CONTEST",
+        "BOOMERS BASKETBALL TOURNAMENTS",
+        "VIPER GO CARTS IS OPEN",
+        "RANKER TRIVIA"
+      ],
+      "Afternoon Activities": [
+        "SCENIC BOAT RIDES",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "POP-A-SHOT CONTEST",
+        "WOODLOCH “JEOPARDY!”",
+        "FLYBALL CONTEST"
+      ],
+      "Late Afternoon Activities": [
+        "KIDS CLUB JEWELRY MAKING",
+        "ULTIMATE BAG-O CONTEST",
+        "JACKPOT BINGO GAMES",
+        "2-BASE KICKBALL",
+        "NORTH LODGE HAPPY HOUR",
+        "“ROCK & ROLL HALL OF FAME” PERFORMANCE WITH SAMMY!"
+      ],
+      "Evening Activities": [
+        "THE VOCAL TALENTS OF “PETE CUSTODE”",
+        "BUMPER CARS ARE OPEN!",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ]
+    }
   }
 ]
