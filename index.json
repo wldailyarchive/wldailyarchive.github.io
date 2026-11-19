@@ -121,7 +121,61 @@
   {
     "date": "2026-11-17",
     "path": "PDFs/2026/11/activitysheet-2026-11-17.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "THE ARCHERY RANGE IS OPEN!",
+        "WOODLOCH GOES TO THE MOVIES TRIVIA",
+        "BULLSEYE BOCCE CONTEST",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "FAMILY FEUD"
+      ],
+      "Afternoon Activities": [
+        "SCENIC BOAT RIDES",
+        "TIC TAC THROW",
+        "JACKPOT BINGO GAMES",
+        "BOOMER’S BOWLING"
+      ],
+      "Late Afternoon Activities": [
+        "TRAPSHOOT CONTEST",
+        "NAME THAT TUNE",
+        "ZOMBIE BOWLING CONTEST",
+        "KIDS CLUB PAINTING",
+        "NORTH LODGE HAPPY HOUR",
+        "“CHANNEL SURFING” TRIVIA CONTEST WITH NICKY ROMA!"
+      ],
+      "Evening Activities": [
+        "WOODLOCH’S TRADITIONAL HORSERACING GAMES WITH SCOOTER!",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ],
+      "Amenities Included In Your Stay": [
+        "Viper Go Carts",
+        "Indoor Forest Playground",
+        "Indoor Pool & Splash Zone",
+        "Lake Front Activities",
+        "Adventure Playground",
+        "Jr. Go Carts",
+        "Bumper Car Complex",
+        "Pickleball & Tennis Courts",
+        "Bean Ba Golf Course",
+        "Archery Range",
+        "Climbing Wall",
+        "Arts & Crafts Room",
+        "Bocce Courts, Mini Golf, & Pla ground At The Lake",
+        "9-Hole Disc Golf Course",
+        "Treasure Hunts"
+      ],
+      "Recreational Add-Ons": [
+        "Batting Cages",
+        "Game Rooms",
+        "Trapshoot Range",
+        "Shooting Barn & Paintball Range",
+        "Woodloch Escape Rooms f",
+        "ATLANTIS AWAKENS",
+        "WOODLOCH & THE CHOCOLATE FACTORY"
+      ]
+    }
   },
   {
     "date": "2026-11-16",
