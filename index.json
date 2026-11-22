@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-11-22",
+    "path": "PDFs/2026/11/activitysheet-2026-11-22.pdf",
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "BAKING WARS",
+        "SURVEY SAYS CONTEST",
+        "ULTIMATE BAG-O TOURNAMENT",
+        "HOT SPOTS BASKETBALL CONTEST",
+        "TRAPSHOOT CONTEST",
+        "PETTING ZOO & PONY RIDES",
+        "JEWELRY MAKING",
+        "MARKETING MANIA TRIVIA"
+      ],
+      "Afternoon Activities": [
+        "SKEE-BALL SOCCER CONTEST",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "“BY THE NUMBERS” TRIVIA",
+        "INDOOR FOREST PLAYGROUND IS OPEN!",
+        "VIPER GO CARTS ARE OPEN!"
+      ],
+      "Late Afternoon Activities": [
+        "GIGI’S COFFEE HOUSE IS OPEN!",
+        "THE COUNTRY STORE IS OPEN!",
+        "THE MAIN GIFT SHOP IS OPEN!",
+        "THE SHOOTING BARN AND PAINTBALL RANGE IS OPEN!",
+        "THE BUMPER CAR COMPLEX IS OPEN!"
+      ],
+      "Evening Activities": [
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND"
+      ],
+      "Amenities Included In Your Stay": [
+        "Viper Go Carts",
+        "Indoor Forest Playground",
+        "Indoor Pool & Splash Zone",
+        "Lake Front Activities",
+        "Adventure Playground",
+        "Bean Bag Golf Course",
+        "Jr. Go Carts",
+        "Bumper Car Complex",
+        "Pickleball & Tennis Courts",
+        "EZ-Glide Synthetic Skate Rink",
+        "Archery Range",
+        "Climbing Wall",
+        "Arts & Crafts Room",
+        "Bocce Courts, Mini Golf, & Playground At The Lake",
+        "9-Hole Disc Golf Course",
+        "Treasure Hunts"
+      ],
+      "Recreational Add-Ons": [
+        "Batting Cages",
+        "Game Rooms",
+        "Trapshoot Range",
+        "Shooting Barn & Paintball Range",
+        "Woodloch Escape Rooms",
+        "ATLANTIS AWAKENS",
+        "WOODLOCH & THE CHOCOLATE FACTORY"
+      ]
+    }
+  },
+  {
     "date": "2026-11-21",
     "path": "PDFs/2026/11/activitysheet-2026-11-21.pdf",
     "available": true,
