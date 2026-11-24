@@ -2,7 +2,22 @@
   {
     "date": "2026-11-24",
     "path": "PDFs/2026/11/activitysheet-2026-11-24.pdf",
-    "available": true
+    "available": true,
+    "activities": {
+      "Daily Activity List": [
+        "THE SPRINGS SPORTS COMPLEX",
+        "THE MARKET AT WOODLOCH",
+        "COUNTRY STORE AT THE INN",
+        "GAME ROOMS, ARTS & CRAFTS ROOM, & THE BUNKER",
+        "INDOOR GYMNASIUM",
+        "INDOOR FOREST PLAYGROUND",
+        "VIPER GO CARTS",
+        "BUMPER CAR COMPLEX",
+        "LAKE FRONT ACTIVITIES",
+        "INDOOR POOL & SPLASH ZONE",
+        "ADVENTURE PLAYGROUND"
+      ]
+    }
   },
   {
     "date": "2026-11-23",
