@@ -3,6 +3,7 @@
     "date": "2026-11-25",
     "path": "PDFs/2026/11/activitysheet-2026-11-25.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "GIGI’S COFFEE HOUSE IS OPEN!",
@@ -65,6 +66,7 @@
     "date": "2026-11-24",
     "path": "PDFs/2026/11/activitysheet-2026-11-24.pdf",
     "available": true,
+    "limited_activities": true,
     "activities": {
       "Daily Activity List": [
         "THE SPRINGS SPORTS COMPLEX",
@@ -85,6 +87,7 @@
     "date": "2026-11-23",
     "path": "PDFs/2026/11/activitysheet-2026-11-23.pdf",
     "available": true,
+    "limited_activities": true,
     "activities": {
       "Daily Activity List": [
         "SPRINGS SPORTS COMPLEX",
@@ -105,6 +108,7 @@
     "date": "2026-11-22",
     "path": "PDFs/2026/11/activitysheet-2026-11-22.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "BAKING WARS",
@@ -167,6 +171,7 @@
     "date": "2026-11-21",
     "path": "PDFs/2026/11/activitysheet-2026-11-21.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "BOOMER’S BEAN BAG TOSS",
@@ -237,6 +242,7 @@
     "date": "2026-11-20",
     "path": "PDFs/2026/11/activitysheet-2026-11-20.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "COLOR CRAZE TRIVIA",
@@ -302,6 +308,7 @@
     "date": "2026-11-19",
     "path": "PDFs/2026/11/activitysheet-2026-11-19.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "GENERATION GAP TRIVIA",
@@ -363,6 +370,7 @@
     "date": "2026-11-18",
     "path": "PDFs/2026/11/activitysheet-2026-11-18.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "ARCHERY RANGE IS OPEN!",
@@ -421,6 +429,7 @@
     "date": "2026-11-17",
     "path": "PDFs/2026/11/activitysheet-2026-11-17.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "THE ARCHERY RANGE IS OPEN!",
@@ -480,6 +489,7 @@
     "date": "2026-11-16",
     "path": "PDFs/2026/11/activitysheet-2026-11-16.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "5 OF A KIND TRIVIA",
@@ -540,6 +550,7 @@
     "date": "2026-11-15",
     "path": "PDFs/2026/11/activitysheet-2026-11-15.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "JK’S FUNNY PANTS BAKING WARS",
@@ -602,6 +613,7 @@
     "date": "2026-11-14",
     "path": "PDFs/2026/11/activitysheet-2026-11-14.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "KIDS CLUB ROOM IS OPEN",
@@ -672,6 +684,7 @@
     "date": "2026-11-13",
     "path": "PDFs/2026/11/activitysheet-2026-11-13.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "COLOR CRAZE TRIVIA",
@@ -734,6 +747,7 @@
     "date": "2026-11-12",
     "path": "PDFs/2026/11/activitysheet-2026-11-12.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "WOODLOCH GOES TO THE MOVIES TRIVIA",
@@ -794,6 +808,7 @@
     "date": "2026-11-11",
     "path": "PDFs/2026/11/activitysheet-2026-11-11.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "WOODLOCH’S “THE SPICE IS RIGHT” COOKING DEMONSTRATION",
@@ -851,6 +866,7 @@
     "date": "2026-11-10",
     "path": "PDFs/2026/11/activitysheet-2026-11-10.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "GENERATION GAP TRIVIA",
@@ -910,6 +926,7 @@
     "date": "2026-11-09",
     "path": "PDFs/2026/11/activitysheet-2026-11-09.pdf",
     "available": true,
+    "limited_activities": false,
     "activities": {
       "Morning Activities": [
         "BY THE NUMBERS TRIVIA",
