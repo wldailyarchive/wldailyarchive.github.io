@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-11-25",
+    "path": "PDFs/2026/11/activitysheet-2026-11-25.pdf",
+    "available": true,
+    "activities": {
+      "Morning Activities": [
+        "GIGI’S COFFEE HOUSE IS OPEN!",
+        "BUMPER CAR COMPLEX IS OPEN!",
+        "BOOMER’S BEAN BAG TOSS",
+        "SHOOTING BARN & PAINTBALL RANGE IS OPEN!",
+        "BOCCE BOARD CONTEST"
+      ],
+      "Afternoon Activities": [
+        "FLYBALL CONTEST",
+        "THE KIDS CLUB ROOM IS OPEN",
+        "5 OF A KIND TRIVIA",
+        "VIPER GO CARTS ARE OPEN",
+        "ARCHERY RANGE IS OPEN"
+      ],
+      "Late Afternoon Activities": [
+        "JACKPOT BINGO GAMES",
+        "21 BUCKETS CONTEST",
+        "WIFFLEBALL HOME RUN DERBY",
+        "KIDS CLUB PAINTING",
+        "NORTH LODGE HAPPY HOUR",
+        "ALL NEW “WIN, LOSE, OR DRAW” TRIVIA CONTEST!"
+      ],
+      "Evening Activities": [
+        "MARSHMALLOW ROASTING AT THE NORTH LODGE FIRE PIT!",
+        "OUR TRADITIONAL HORSERACING GAMES WITH SCOOTER!",
+        "NORTH LODGE FOR THE AMAZING MAGICAL TALENTS OF “MICHAEL MILLER!”",
+        "FAMILY DJ DANCE PARTY WITH “DJ QUINN-C!”",
+        "INDOOR POOL & SPLASH ZONE",
+        "INDOOR FOREST PLAYGROUND",
+        "BUMPER CAR COMPLEX"
+      ],
+      "Amenities Included In Your Stay": [
+        "Viper Go Carts",
+        "Indoor Forest Playground",
+        "Indoor Pool & Splash Zone",
+        "Lake Front Activities",
+        "Bean Bag Golf Course",
+        "Jr. Go Carts",
+        "Bumper Car Complex",
+        "Pickleball & Tennis Courts",
+        "EZ-Glide Synthetic Skate Rink",
+        "Archery Range",
+        "Arts & Crafts Room",
+        "Bocce Courts, Mini Golf, & Playground At The Lake",
+        "9-Hole Disc Golf Course",
+        "Treasure Hunts"
+      ],
+      "Recreational Add-Ons": [
+        "Batting Cages",
+        "Game Rooms",
+        "Shooting Barn & Paintball Range",
+        "Woodloch Escape Rooms",
+        "ATLANTIS AWAKENS",
+        "WOODLOCH & THE CHOCOLATE FACTORY"
+      ]
+    }
+  },
+  {
     "date": "2026-11-24",
     "path": "PDFs/2026/11/activitysheet-2026-11-24.pdf",
     "available": true,
